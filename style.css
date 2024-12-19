@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: #f0f0f0;
+    font-weight: 900;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    color: #f0f0f0;
+    font-weight: 500;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.start_btn {
+    background-color: #008000;
+}
+
+.pause_btn {
+    background-color: #808080;
+}
+
+.stop_btn {
+    background-color: #ff0000;
+}
