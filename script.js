@@ -3,6 +3,8 @@ var min = 0
 var hr = 0
 var interval
 
+window.alert ('Clique no iniciar para iniciar o cronômetro!')
+
 function twoDigits(digit) {
     if (digit < 10) {//ADICIONANDO VALOR DE MAIS UM ZERO SE O VALOR FOR MENOR QUE 10, ATENDIDO OS REQUISITOS O ZERO É ADICIONADO A FRENTE
         return('0' + digit)

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* Telas acima de 768px */
+@media (min-width: 768px) {
+    div {
+      width: 50%; /* Reduz a largura para centralizar em telas maiores */
+    }
+    h1 {
+        text-align: center;
+    }
+  }
+
+  @media (min-width: 1250px) {
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #button {
+        margin: 10px;
+    }
+  }
+  
